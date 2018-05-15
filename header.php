@@ -27,6 +27,7 @@
           Registrar
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="indexPrestamo.php">Préstamo</a>
           <a class="dropdown-item" href="indexEditorial.php">Editorial</a>
           <a class="dropdown-item" href="indexLibro.php">Libro</a>
           <a class="dropdown-item" href="indexSocios.php">Socio</a>
@@ -37,6 +38,7 @@
           Ver
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="indexPrestamo.php">Préstamo</a>
           <a class="dropdown-item" href="leerEditorial.php">Editorial</a>
           <a class="dropdown-item" href="leerLibro.php">Libro</a>
           <a class="dropdown-item" href="leerSocio.php">Socio</a>

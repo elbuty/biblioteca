@@ -13,7 +13,7 @@
 
     /**ZONA DE INSERCION EN LA BD**/
     try{
-    $sql="INSERT INTO libro
+    $sql="INSERT INTO prestamo
             (cod_prestamo,
             fecha_realizacion,
             fecha_devolucion,
@@ -21,12 +21,11 @@
           VALUES($cod_prestamo,
             $fecha_realizacion,
             $fecha_devolucion,
-            $cod_editorial,
             $cod_persona)";
     //echo $sql;
     $numero=$conexion->exec($sql);
     echo $conexion->errorInfo()[2];
-    echo "   ".$numero." LIBROS INSERTADOS";
+    echo "   ".$numero." PRESTAMOS REALIZADOS";
   }catch(PDOException $error){
     echo $error->getMessage();
   }
