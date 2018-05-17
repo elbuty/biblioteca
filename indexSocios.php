@@ -46,13 +46,6 @@
           </form>
         </div>
             <div class="row mas-margen-inferior">
-              <div class="col-12">
-                <input class="btn btn-primary"
-                  id="leerSocio"
-                  type="button"
-                  value="Ver socios registrados">
-              </div>
-            </div>
             <div class="row">
               <div class="col-12" id="resultados">
 

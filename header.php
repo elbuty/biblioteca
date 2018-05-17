@@ -19,8 +19,16 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Usuario</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Ver</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Herramientas
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">submenu</a>
+          <a class="dropdown-item" href="#">submenu1</a>
+          <a class="dropdown-item" href="#">submenu2</a>
+          <a class="dropdown-item" href="#">submenu3</a>
+        </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

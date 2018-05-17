@@ -45,14 +45,6 @@
             <input id= "agregar" class="btn btn-primary" type="button" value="Agregar">
           </form>
         </div>
-            <div class="row mas-margen-inferior">
-              <div class="col-12">
-                <input class="btn btn-primary"
-                  id="leerLibro"
-                  type="button"
-                  value="Ver Libros registrados">
-              </div>
-            </div>
             <div class="row">
               <div class="col-12" id="resultados">
 
@@ -60,7 +52,6 @@
             </div>
         </div>
       </div>
-    </div>
   </section>
   <script>
     //Funciones
