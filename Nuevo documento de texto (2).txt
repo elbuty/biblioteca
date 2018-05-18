@@ -1,0 +1,17 @@
+http://localhost/wordpress/indexLibro.html
+http://localhost/wordpress/indexSocios.html
+http://localhost/wordpress/indexEditorial.html
+
+nvda
+
+
+para instalar xampp en linux desde la consola
+
+wget https://www.apachefriends.org/xampp-files/7.0.30/xampp-linux-x64-7.0.30-0-installer.run
+
+<script>
+    $(document).ready(function() {
+      $("body").css("background-image","url('img/letras.jpg')");
+    });
+
+</script>
